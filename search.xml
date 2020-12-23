@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[2020 Flink forward 大会]]></title>
+    <url>%2F2020%2F12%2F24%2F2020%20Flink%20forward%E5%A4%A7%E4%BC%9A%2F</url>
+    <content type="text"><![CDATA[标准benchmarkSteaming benchmark 单节点重启非全局checkpoint全链路数据实时化 to 实时离线一体化2021是元年 数据批量集成和增量集成一体化 技术栈分离 逻辑分离 团队分离 数据湖 flink+iceberg 比较成熟支持数据更新 PyFlink AI 支持Python大数据和AI一体化Alink 开源算法flink AI extended(alibaba)DL on FlinkFlink AI FlowFlink Native on K8s京东Flink容器化k8s部署，用物理机网络解决虚拟网络性能问题framework和业务日志隔离和级别动态配置窗口支持增量运算]]></content>
+      <categories>
+        <category>技术趋势</category>
+      </categories>
+      <tags>
+        <tag>Flink</tag>
+        <tag>批流一体</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[关于画各种流程图、架构图的核心观点]]></title>
     <url>%2F2020%2F12%2F23%2F%E5%85%B3%E4%BA%8E%E7%94%BB%E5%90%84%E7%A7%8D%E6%B5%81%E7%A8%8B%E5%9B%BE%E3%80%81%E6%9E%B6%E6%9E%84%E5%9B%BE%E7%9A%84%E6%A0%B8%E5%BF%83%E8%A7%82%E7%82%B9%2F</url>
     <content type="text"><![CDATA[一张图只有一个重点，和重点无关的部分都做淡化处理。 目的：把听众目光牵引到关键点上去，节省听众认知资源 一张图只阐释一个观点，不能是多个，职责要单一。 目的：图是为了表达观点而生的，观点要一个一个说，图要一个一个展示，节省听众认知资源 因为图的结构能帮助表达观点所以才画，而不是为了画图而画图。比如：用阶梯图协助表达递进关系，这样文字就不用表达递进关系了 目的：用颜色和结构等可视化元素刺激听众，而不是靠文字和讲述，节省听众认知资源]]></content>
