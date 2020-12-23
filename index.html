@@ -422,207 +422,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://lihongyu.me/2020/12/23/为什么TDengine 这么秀/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lihongyu">
-      <meta itemprop="description" content="Data Engineer">
-      <meta itemprop="image" content="https://avatars0.githubusercontent.com/u/5850103?s=460&v=4">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jared's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2020/12/23/为什么TDengine 这么秀/" class="post-title-link" itemprop="url">Untitled</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2020-12-23 23:58:17" itemprop="dateCreated datePublished" datetime="2020-12-23T23:58:17+08:00">2020-12-23</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Symbols count in article: </span>
-                
-                <span title="Symbols count in article">392</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Reading time &asymp;</span>
-                
-                <span title="Reading time">1 mins.</span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>为什么TDengine 这么秀</p>
-<p>听了陶老师的分享，很有收获，摘录了一些细节，备用，同时也可以和<a href="https://lihongyu.me/2020/05/12/%E5%9C%A8%E7%BA%BF%E6%9C%8D%E5%8A%A1%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E8%AE%BA/">《在线服务设计方法论》</a>很好的契合起来。</p>
-<p>以下</p>
-<ol>
-<li>快：利用了物联网大数据的十个特点</li>
-<li>小 2.7MB：不利用第三方开源软件</li>
-<li>技术创新<ol>
-<li>性能<ol>
-<li>一个采集点一张表（本质是动静数据分离，采集点的静态数据只存一次，表里只有动态数据，就可以做成只追加，不修改了。同时数据波动范围是稳定的）</li>
-<li>列存，给数据压缩提供土壤</li>
-<li>按块存储，块内连续存储，块索引</li>
-<li>两级索引：标签（本质是空间索引），时序数据（本质是时间索引）</li>
-<li>资源利用<ol>
-<li>按时间分区、按vnode（含一个或多个采集点）分片</li>
-<li>多级存储：内存-&gt;SSD-&gt;HD-&gt;S3</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>高可靠<ol>
-<li>write ahead log    WAL</li>
-</ol>
-</li>
-<li>高可用<ol>
-<li>Master-slave 多副本</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>其它亮点<ol>
-<li>滑动窗口+聚合时间段 分开表达</li>
-<li>数据订阅</li>
-</ol>
-</li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://lihongyu.me/2020/12/23/关于画各种流程图、架构图的核心观点/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -748,6 +547,201 @@
 </blockquote>
 
           
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://lihongyu.me/2020/12/23/为什么TDengine 这么秀/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lihongyu">
+      <meta itemprop="description" content="Data Engineer">
+      <meta itemprop="image" content="https://avatars0.githubusercontent.com/u/5850103?s=460&v=4">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jared's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2020/12/23/为什么TDengine 这么秀/" class="post-title-link" itemprop="url">为什么TDengine 这么秀</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2020-12-23 21:09:36 / Modified: 23:59:43" itemprop="dateCreated datePublished" datetime="2020-12-23T21:09:36+08:00">2020-12-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/数据库/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Symbols count in article: </span>
+                
+                <span title="Symbols count in article">377</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">1 mins.</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>听了陶老师的分享，很有收获，摘录了一些细节，备用，同时也可以和<a href="https://lihongyu.me/2020/05/12/%E5%9C%A8%E7%BA%BF%E6%9C%8D%E5%8A%A1%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E8%AE%BA/">《在线服务设计方法论》</a>很好的契合起来。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2020/12/23/为什么TDengine 这么秀/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -2430,7 +2424,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
