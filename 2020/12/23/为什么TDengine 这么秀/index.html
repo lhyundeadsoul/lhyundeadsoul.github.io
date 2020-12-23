@@ -103,20 +103,18 @@
 </script>
 
 
-  <meta name="description" content="https://solnotes.com/2016/10/08/simple-stats-in-abtesting/https://mp.weixin.qq.com/s?__biz=MzU1ODEzNjI2NA==&amp;amp;mid=2247487223&amp;amp;idx=1&amp;amp;sn=306598fda6c931e7fbf023cf07959f20&amp;amp;source=41#wechat_r">
+  <meta name="description" content="为什么TDengine 这么秀 听了陶老师的分享，很有收获，摘录了一些细节，备用，同时也可以和《在线服务设计方法论》很好的契合起来。 以下  快：利用了物联网大数据的十个特点 小 2.7MB：不利用第三方开源软件 技术创新 性能 一个采集点一张表（本质是动静数据分离，采集点的静态数据只存一次，表里只有动态数据，就可以做成只追加，不修改了。同时数据波动范围是稳定的） 列存，给数据压缩提供土壤 按块存">
 <meta name="keywords" content="Flink Spark Beam">
 <meta property="og:type" content="article">
-<meta property="og:title" content="说通ABTest的数学逻辑">
-<meta property="og:url" content="http://lihongyu.me/2020/10/27/说通ABTest的数学逻辑/index.html">
+<meta property="og:title" content="Jared&#39;s Blog">
+<meta property="og:url" content="http://lihongyu.me/2020/12/23/为什么TDengine 这么秀/index.html">
 <meta property="og:site_name" content="Jared&#39;s Blog">
-<meta property="og:description" content="https://solnotes.com/2016/10/08/simple-stats-in-abtesting/https://mp.weixin.qq.com/s?__biz=MzU1ODEzNjI2NA==&amp;amp;mid=2247487223&amp;amp;idx=1&amp;amp;sn=306598fda6c931e7fbf023cf07959f20&amp;amp;source=41#wechat_r">
+<meta property="og:description" content="为什么TDengine 这么秀 听了陶老师的分享，很有收获，摘录了一些细节，备用，同时也可以和《在线服务设计方法论》很好的契合起来。 以下  快：利用了物联网大数据的十个特点 小 2.7MB：不利用第三方开源软件 技术创新 性能 一个采集点一张表（本质是动静数据分离，采集点的静态数据只存一次，表里只有动态数据，就可以做成只追加，不修改了。同时数据波动范围是稳定的） 列存，给数据压缩提供土壤 按块存">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://mmbiz.qpic.cn/sz_mmbiz_jpg/X5cB3w6FrP6SUKsgm7qcghdicNt0bSU4O9Qib9CBica4Ofbhk2Rw5U5tQia1NscRe1aSxlCMuYKEk0p8GqPrpibH2IQ/0?wx_fmt=jpeg">
-<meta property="og:updated_time" content="2020-12-23T13:56:43.665Z">
+<meta property="og:updated_time" content="2020-12-23T15:58:17.893Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="说通ABTest的数学逻辑">
-<meta name="twitter:description" content="https://solnotes.com/2016/10/08/simple-stats-in-abtesting/https://mp.weixin.qq.com/s?__biz=MzU1ODEzNjI2NA==&amp;amp;mid=2247487223&amp;amp;idx=1&amp;amp;sn=306598fda6c931e7fbf023cf07959f20&amp;amp;source=41#wechat_r">
-<meta name="twitter:image" content="https://mmbiz.qpic.cn/sz_mmbiz_jpg/X5cB3w6FrP6SUKsgm7qcghdicNt0bSU4O9Qib9CBica4Ofbhk2Rw5U5tQia1NscRe1aSxlCMuYKEk0p8GqPrpibH2IQ/0?wx_fmt=jpeg">
+<meta name="twitter:title" content="Jared&#39;s Blog">
+<meta name="twitter:description" content="为什么TDengine 这么秀 听了陶老师的分享，很有收获，摘录了一些细节，备用，同时也可以和《在线服务设计方法论》很好的契合起来。 以下  快：利用了物联网大数据的十个特点 小 2.7MB：不利用第三方开源软件 技术创新 性能 一个采集点一张表（本质是动静数据分离，采集点的静态数据只存一次，表里只有动态数据，就可以做成只追加，不修改了。同时数据波动范围是稳定的） 列存，给数据压缩提供土壤 按块存">
 
 
 
@@ -126,7 +124,7 @@
 
   
   
-  <link rel="canonical" href="http://lihongyu.me/2020/10/27/说通ABTest的数学逻辑/">
+  <link rel="canonical" href="http://lihongyu.me/2020/12/23/为什么TDengine 这么秀/">
 
 
 
@@ -136,7 +134,7 @@
   };
 </script>
 
-  <title>说通ABTest的数学逻辑 | Jared's Blog</title>
+  <title> | Jared's Blog</title>
   
 
 
@@ -424,7 +422,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://lihongyu.me/2020/10/27/说通ABTest的数学逻辑/">
+    <link itemprop="mainEntityOfPage" href="http://lihongyu.me/2020/12/23/为什么TDengine 这么秀/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="lihongyu">
@@ -441,7 +439,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">说通ABTest的数学逻辑
+          <h1 class="post-title" itemprop="name headline">
 
               
             
@@ -467,25 +465,9 @@
                 
               
 
-              <time title="Created: 2020-10-27 11:24:23" itemprop="dateCreated datePublished" datetime="2020-10-27T11:24:23+08:00">2020-10-27</time>
+              <time title="Created: 2020-12-23 23:58:17" itemprop="dateCreated datePublished" datetime="2020-12-23T23:58:17+08:00">2020-12-23</time>
             
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2020-12-23 21:56:43" itemprop="dateModified" datetime="2020-12-23T21:56:43+08:00">2020-12-23</time>
-              
             
           </span>
 
@@ -519,7 +501,7 @@
                 
                   <span class="post-meta-item-text">Symbols count in article: </span>
                 
-                <span title="Symbols count in article">356</span>
+                <span title="Symbols count in article">392</span>
               
 
               
@@ -553,8 +535,41 @@
       
 
       
-        <p><img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/X5cB3w6FrP6SUKsgm7qcghdicNt0bSU4O9Qib9CBica4Ofbhk2Rw5U5tQia1NscRe1aSxlCMuYKEk0p8GqPrpibH2IQ/0?wx_fmt=jpeg" alt="abtest"></p>
-<p><a href="https://solnotes.com/2016/10/08/simple-stats-in-abtesting/" target="_blank" rel="noopener">https://solnotes.com/2016/10/08/simple-stats-in-abtesting/</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzU1ODEzNjI2NA==&amp;mid=2247487223&amp;idx=1&amp;sn=306598fda6c931e7fbf023cf07959f20&amp;source=41#wechat_redirect" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzU1ODEzNjI2NA==&amp;mid=2247487223&amp;idx=1&amp;sn=306598fda6c931e7fbf023cf07959f20&amp;source=41#wechat_redirect</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzU1ODEzNjI2NA==&amp;mid=2247487225&amp;idx=1&amp;sn=3598f1caf4d3fd5c4a77962a9f86f692&amp;source=41#wechat_redirect" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzU1ODEzNjI2NA==&amp;mid=2247487225&amp;idx=1&amp;sn=3598f1caf4d3fd5c4a77962a9f86f692&amp;source=41#wechat_redirect</a></p>
+        <p>为什么TDengine 这么秀</p>
+<p>听了陶老师的分享，很有收获，摘录了一些细节，备用，同时也可以和<a href="https://lihongyu.me/2020/05/12/%E5%9C%A8%E7%BA%BF%E6%9C%8D%E5%8A%A1%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E8%AE%BA/">《在线服务设计方法论》</a>很好的契合起来。</p>
+<p>以下</p>
+<ol>
+<li>快：利用了物联网大数据的十个特点</li>
+<li>小 2.7MB：不利用第三方开源软件</li>
+<li>技术创新<ol>
+<li>性能<ol>
+<li>一个采集点一张表（本质是动静数据分离，采集点的静态数据只存一次，表里只有动态数据，就可以做成只追加，不修改了。同时数据波动范围是稳定的）</li>
+<li>列存，给数据压缩提供土壤</li>
+<li>按块存储，块内连续存储，块索引</li>
+<li>两级索引：标签（本质是空间索引），时序数据（本质是时间索引）</li>
+<li>资源利用<ol>
+<li>按时间分区、按vnode（含一个或多个采集点）分片</li>
+<li>多级存储：内存-&gt;SSD-&gt;HD-&gt;S3</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>高可靠<ol>
+<li>write ahead log    WAL</li>
+</ol>
+</li>
+<li>高可用<ol>
+<li>Master-slave 多副本</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>其它亮点<ol>
+<li>滑动窗口+聚合时间段 分开表达</li>
+<li>数据订阅</li>
+</ol>
+</li>
+</ol>
 
       
     </div>
@@ -591,8 +606,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/10/26/关于股票和股市/" rel="next" title="关于股票和股市">
-                <i class="fa fa-chevron-left"></i> 关于股票和股市
+              <a href="/2020/12/23/关于画各种流程图、架构图的核心观点/" rel="next" title="关于画各种流程图、架构图的核心观点">
+                <i class="fa fa-chevron-left"></i> 关于画各种流程图、架构图的核心观点
               </a>
             
           </div>
@@ -600,10 +615,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/10/27/源自《事实》的一点启发/" rel="prev" title="源自《事实》的一点启发">
-                源自《事实》的一点启发 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -1074,7 +1085,7 @@
   
     <script>
   window.livereOptions = {
-    refer: '2020/10/27/说通ABTest的数学逻辑/'
+    refer: '2020/12/23/为什么TDengine 这么秀/'
   };
   (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
