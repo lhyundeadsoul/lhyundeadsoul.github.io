@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="Jared&#39;s Blog">
 <meta property="og:description" content="可以说从大学毕业就阴差阳错地做了『在线服务』，中间转过几次大数据相关方向，也都还是免不了回到这个老本行。 幸运的是，期间既做过要求强一致的系统，也做过要求低延时、高吞吐的系统，还搞过微服务的拆分和管理等工作。 在这个领域里做了这么久，零零散散写过些东西，但是一直没有完整、系统地总结过这个领域里的方法论，现在是时候完成它了。 千言万语一张表：（注意里面子项有链接，可以深入了解）">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-12-23T13:56:43.663Z">
+<meta property="og:updated_time" content="2020-12-23T15:55:14.520Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在线服务设计方法论">
 <meta name="twitter:description" content="可以说从大学毕业就阴差阳错地做了『在线服务』，中间转过几次大数据相关方向，也都还是免不了回到这个老本行。 幸运的是，期间既做过要求强一致的系统，也做过要求低延时、高吞吐的系统，还搞过微服务的拆分和管理等工作。 在这个领域里做了这么久，零零散散写过些东西，但是一直没有完整、系统地总结过这个领域里的方法论，现在是时候完成它了。 千言万语一张表：（注意里面子项有链接，可以深入了解）">
@@ -482,7 +482,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2020-12-23 21:56:43" itemprop="dateModified" datetime="2020-12-23T21:56:43+08:00">2020-12-23</time>
+                <time title="Modified: 2020-12-23 23:55:14" itemprop="dateModified" datetime="2020-12-23T23:55:14+08:00">2020-12-23</time>
               
             
           </span>
@@ -535,7 +535,7 @@
                 
                   <span class="post-meta-item-text">Symbols count in article: </span>
                 
-                <span title="Symbols count in article">436</span>
+                <span title="Symbols count in article">578</span>
               
 
               
@@ -586,9 +586,9 @@
 <tbody>
 <tr>
 <td><strong>道</strong></td>
-<td><a href="https://mp.weixin.qq.com/s/saFW6DfkSenR5rg9KlY5uA" target="_blank" rel="noopener">生态系统论</a>：像构建一个生态系统一样构建一套系统</td>
+<td><a href="https://mp.weixin.qq.com/s/saFW6DfkSenR5rg9KlY5uA" target="_blank" rel="noopener">生态系统论</a>：像构建一个生态系统一样构建一个IT系统</td>
 <td><a href="https://coolshell.cn/articles/10652.html" target="_blank" rel="noopener">控制逻辑正交</a>：本质是『做什么(控制)』<br>和『怎么做(逻辑)』的隔离</td>
-<td></td>
+<td>掌握越多细节，优化空间越大</td>
 </tr>
 <tr>
 <td><strong>术</strong></td>
@@ -597,16 +597,22 @@
 <td><strong>产出数据</strong></td>
 </tr>
 <tr>
-<td>高性能</td>
-<td>二进制描述<br>倒排结构</td>
+<td>高性能（资源有限时处理不能慢）</td>
+<td>【怎么划分数据】动静、读写、冷热、时空、业务<br>【按什么结构存储数据】倒排结构、列存、顺序存、多级存储<br>【怎么描述数据】二进制描述<br>【怎么写入数据】并发写：<a href="https://lihongyu.me/2019/04/18/数据库字段规范及乐观锁常见错误/">乐观锁</a><br></td>
 <td>分治<br>优秀的算法喜欢有序的数据<br>无锁</td>
 <td><a href="https://mp.weixin.qq.com/s/TDJz9WLQercAvlMhHc1QDQ" target="_blank" rel="noopener">牺牲精确性</a><br><a href="https://coolshell.cn/articles/17416.html" target="_blank" rel="noopener">缓存</a></td>
 </tr>
 <tr>
-<td>高可靠</td>
-<td>并发写：<a href="https://lihongyu.me/2019/04/18/数据库字段规范及乐观锁常见错误/">乐观锁</a><br>分离：动静、读写、冷热、按业务<br></td>
-<td>【失败】fast fail原则<br>【状态】无状态设计<br>【依赖】尽量不依赖，<br>必须依赖的尽量异步依赖，<br>必须要同步依赖的就四步曲：<br>打日志，加超时，加限流，加降级</td>
+<td>高可靠（数据不能丢、不能乱）</td>
+<td>WAL(write ahead log)</td>
+<td>【失败】fast fail原则<br></td>
 <td>幂等</td>
+</tr>
+<tr>
+<td>高可用（服务不能死）</td>
+<td>多副本、Master-slave</td>
+<td>【状态】无状态设计<br>【依赖】尽量不依赖，<br>必须依赖的尽量异步依赖，<br>必须要同步依赖的就四步曲：<br>打日志，加超时，加限流，加降级</td>
+<td>分页切片<br>探活</td>
 </tr>
 </tbody>
 </table>
