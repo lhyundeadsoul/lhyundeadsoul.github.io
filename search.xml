@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[web开发趋势]]></title>
+    <url>%2F2021%2F03%2F28%2Fweb%E5%BC%80%E5%8F%91%E8%B6%8B%E5%8A%BF%2F</url>
+    <content type="text"><![CDATA[纯后端Docker + Kubernates解决web开发中横向扩展的问题 ServiceMesh解决web开发中纵向逻辑拆分的问题：业务逻辑和中间件逻辑 前后端协作GraphQL web开发本质上是在做一个信息流，流动的双方是前端 和 后端，前端是后端 的client，后端 是前端 的数据库 数据库有一个很好的设计 ，就是用sql表达”我要什么数据”， 用sql解析器和存储引擎表达”我怎么得到数据” 因此，给前端 一个QL，让真正对数据有需求的前端 表达”我要什么数据”，让数据拥有者只解决怎么得到数据的问题 GraphQL诞生]]></content>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[认知分层标准以及我们到底应该争论什么]]></title>
     <url>%2F2021%2F02%2F01%2F%E8%AE%A4%E7%9F%A5%E5%88%86%E5%B1%82%E6%A0%87%E5%87%86%E4%BB%A5%E5%8F%8A%E6%88%91%E4%BB%AC%E5%BA%94%E8%AF%A5%E4%BA%89%E8%AE%BA%E4%BB%80%E4%B9%88%2F</url>
     <content type="text"><![CDATA[认知分层人和猪的区别是基因的差别，是可以量化的；人和人的区别是认知的区别，是不可以被量化的。认知的不同使我们实际处在不同的平行世界之中。 认知分层由低到高，同一层级的无法互相说服，只有高层对低层的降维打击： 认知分层（由低到高） 思考问题模式 解决问题方式 环境 都是别人（环境）的错 换环境 行为 我还不够努力 再努力一些 能力 面对问题，总是在找对应的方法 学习新能力，提升自己 信念价值观 为什么要做？方向对吗？ 上升到大环境和自身的资源整合 身份 思考“我是谁”，明确“我是什么角色” 自我感，由内心出发，主动选择 愿景 思考生命的意义，世界因我有何不同？ 利他思维 我们应该争论什么？ 观点=事实×逻辑×动机 注：姚明很高。 这是观点，不是事实。姚明身高226cm才是事实，是可以被证伪的。 当我们在争论一件事情时，应该先区分哪些内容是事实？哪些内容是逻辑？哪些内容是动机？ 然后在争论的过程中拿出双方的“事实”，先对齐“事实”，达成一致； 再找出各自的逻辑推理过程中的不足，对齐； 一般情况下，这时应该可以达成一致的观点了。如果还不行，往往是双方背后的“动机”不同，往往有些人在说“逻辑”时，背后隐含了他的“动机”，是“动机”影响了他说的“逻辑”，这个“动机”很少明说，但是影响极大，需要提前调查和了解，才能理解对方为什么会形成那样的观点。]]></content>
@@ -19,7 +27,7 @@
   <entry>
     <title><![CDATA[2020 Flink forward 大会]]></title>
     <url>%2F2020%2F12%2F24%2F2020%20Flink%20forward%E5%A4%A7%E4%BC%9A%2F</url>
-    <content type="text"><![CDATA[标准benchmarkSteaming benchmark 单节点重启非全局checkpoint全链路数据实时化 to 实时离线一体化2021是元年 数据批量集成和增量集成一体化 技术栈分离 逻辑分离 团队分离 数据湖 flink+iceberg 比较成熟支持数据更新 PyFlink AI 支持Python大数据和AI一体化Alink 开源算法flink AI extended(alibaba)DL on FlinkFlink AI FlowFlink Native on K8s京东Flink容器化k8s部署，用物理机网络解决虚拟网络性能问题framework和业务日志隔离和级别动态配置窗口支持增量运算]]></content>
+    <content type="text"><![CDATA[标准benchmarkSteaming benchmark 单节点重启非全局checkpoint 全链路数据实时化 to 实时离线一体化2021是元年 数据批量集成和增量集成一体化 技术栈分离 逻辑分离 团队分离 数据湖 flink+iceberg 比较成熟支持数据更新 PyFlink AI 支持Python大数据和AI一体化Alink 开源算法flink AI extended(alibaba)DL on FlinkFlink AI FlowFlink Native on K8s京东Flink容器化k8s部署，用物理机网络解决虚拟网络性能问题framework和业务日志隔离和级别动态配置窗口支持增量运算]]></content>
       <categories>
         <category>技术趋势</category>
       </categories>
