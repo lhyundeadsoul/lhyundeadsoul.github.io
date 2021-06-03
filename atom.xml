@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lihongyu.me/"/>
-  <updated>2021-04-01T03:16:32.456Z</updated>
+  <updated>2021-06-03T06:12:38.855Z</updated>
   <id>http://lihongyu.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何设计一个吸引人的演讲</title>
+    <link href="http://lihongyu.me/2021/06/03/%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%90%B8%E5%BC%95%E4%BA%BA%E7%9A%84%E6%BC%94%E8%AE%B2/"/>
+    <id>http://lihongyu.me/2021/06/03/如何设计一个吸引人的演讲/</id>
+    <published>2021-06-03T06:03:55.000Z</published>
+    <updated>2021-06-03T06:12:38.855Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="破冰："><a href="#破冰：" class="headerlink" title="破冰："></a>破冰：</h2><h3 id="在听众认知上戳一个洞"><a href="#在听众认知上戳一个洞" class="headerlink" title="在听众认知上戳一个洞"></a>在听众认知上戳一个洞</h3><h4 id="把听众带入一个场景"><a href="#把听众带入一个场景" class="headerlink" title="把听众带入一个场景"></a>把听众带入一个场景</h4><h4 id="“冒犯”听众：你对“创新”的理解真的对吗？"><a href="#“冒犯”听众：你对“创新”的理解真的对吗？" class="headerlink" title="“冒犯”听众：你对“创新”的理解真的对吗？"></a>“冒犯”听众：你对“创新”的理解真的对吗？</h4><h3 id="收集笑点，而不是设计笑点"><a href="#收集笑点，而不是设计笑点" class="headerlink" title="收集笑点，而不是设计笑点"></a>收集笑点，而不是设计笑点</h3><h2 id="注意力管理"><a href="#注意力管理" class="headerlink" title="注意力管理"></a>注意力管理</h2><h3 id="让听众说几句，互动"><a href="#让听众说几句，互动" class="headerlink" title="让听众说几句，互动"></a>让听众说几句，互动</h3><h3 id="调动听众脑中的画面"><a href="#调动听众脑中的画面" class="headerlink" title="调动听众脑中的画面"></a>调动听众脑中的画面</h3><h3 id="预期之外的获得感"><a href="#预期之外的获得感" class="headerlink" title="预期之外的获得感"></a>预期之外的获得感</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;破冰：&quot;&gt;&lt;a href=&quot;#破冰：&quot; class=&quot;headerlink&quot; title=&quot;破冰：&quot;&gt;&lt;/a&gt;破冰：&lt;/h2&gt;&lt;h3 id=&quot;在听众认知上戳一个洞&quot;&gt;&lt;a href=&quot;#在听众认知上戳一个洞&quot; class=&quot;headerlink&quot; title=&quot;在
+      
+    
+    </summary>
+    
+    
+      <category term="演讲" scheme="http://lihongyu.me/tags/%E6%BC%94%E8%AE%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>web开发趋势</title>
@@ -329,13 +352,13 @@
     
       <category term="心领神会" scheme="http://lihongyu.me/tags/%E5%BF%83%E9%A2%86%E7%A5%9E%E4%BC%9A/"/>
     
+      <category term="web" scheme="http://lihongyu.me/tags/web/"/>
+    
       <category term="设计原则" scheme="http://lihongyu.me/tags/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/"/>
     
       <category term="方法论" scheme="http://lihongyu.me/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
     
       <category term="java" scheme="http://lihongyu.me/tags/java/"/>
-    
-      <category term="web" scheme="http://lihongyu.me/tags/web/"/>
     
       <category term="微服务" scheme="http://lihongyu.me/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
     
@@ -563,29 +586,6 @@ Z[数据价值]
       <category term="数据库" scheme="http://lihongyu.me/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
       <category term="乐观锁" scheme="http://lihongyu.me/tags/%E4%B9%90%E8%A7%82%E9%94%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Dynamic-PB-Parser：搞定Protobuf数据动态解析</title>
-    <link href="http://lihongyu.me/2019/04/17/dynamic-pb-parser-%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://lihongyu.me/2019/04/17/dynamic-pb-parser-介绍/</id>
-    <published>2019-04-16T16:45:47.000Z</published>
-    <updated>2020-12-23T13:56:43.661Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><h3 id="核心痛点"><a href="#核心痛点" class="headerlink" title="核心痛点"></a>核心痛点</h3><p>使用ODPS(hive) SQL解析JSON数据的时候你可能用过get_json_object这个内置UDF，其灵活性给JSON数据解析带来了很多的便利。</p><p>但是对于Protobuf描述的数据，解析工作就麻烦太多了，即使解析一个字段，也要写一个完整的UDF(或UDTF)，并且上传各种protobuf的jar，然而这还没有完，如果新需求来了，即使仅改了一个字段的解析需求，也需要再重新开发一个新的UDF来完成。时间久了，项目里会有很多地方散落着各种Protobuf数据解析的逻辑，如果再有些公共逻辑改变，还要涉及到重构。维护工作繁重。<br><a id="more"></a></p><h3 id="本质原因"><a href="#本质原因" class="headerlink" title="本质原因"></a>本质原因</h3><p>出现以上问题的本质原因实际上是我们把“我们想要A字段”和“我们如何得到A字段”两件事给耦合在一起了。按照函数式的编程思想，“控制”和“逻辑”要分开，并且互不干扰，这个问题里，“我们如何得到A字段”就是控制，而“我们想要A字段”就是逻辑。</p><h3 id="破局"><a href="#破局" class="headerlink" title="破局"></a>破局</h3><p>既然找到了耦合点，想办法解耦就是出路了。<br>首先，定义一套描述字段路径的语法规则，让它去表达“我们想要A字段”这件事；然后，开发一个可以解析这套语法的程序（类似编译器），去完成“我们如何得到A字段”这件事。这样就可以让两件事互相独立演进了。至此， <code>Dynamic-PB-Parser</code>也就呼之欲出了。</p><h2 id="Dynamic-PB-Parser-能做什么"><a href="#Dynamic-PB-Parser-能做什么" class="headerlink" title="Dynamic-PB-Parser 能做什么"></a><code>Dynamic-PB-Parser</code> 能做什么</h2><p>一句话概括<code>Dynamic-PB-Parser</code>的功能：</p><blockquote><p>按一种简单的语法规则描述字段路径，并动态解析Protobuf数据中对应的字段值。</p></blockquote><h3 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">DynamicPBParser parser = DynamicPBParser.newBuilder()  </span><br><span class="line">.descFilePath(<span class="string">"xxx/xxx.desc"</span>)  </span><br><span class="line">.syntax(<span class="string">"StandardSyntax"</span>)  </span><br><span class="line">.build(); </span><br><span class="line">String name = parser.parse(content, <span class="string">'me.lihongyu.bean.Person$name'</span>);  </span><br><span class="line">BrandType brandType = parser.parse(content, <span class="string">'me.lihongyu.bean.Person$cloth.brand.type'</span>);  </span><br><span class="line">String email = parser.parse(parser.parse(content, <span class="string">'me.lihongyu.bean.Person$proto_data'</span>), <span class="string">'me.lihongyu.bean.AddressBook$email'</span>);</span><br><span class="line">;</span><br></pre></td></tr></table></figure><h2 id="Dynamic-PB-Parser-怎么做的"><a href="#Dynamic-PB-Parser-怎么做的" class="headerlink" title="Dynamic-PB-Parser 怎么做的"></a><code>Dynamic-PB-Parser</code> 怎么做的</h2><p>总体的思路：动态拿到schema(也就是message的定义)，用schema解析pb的数据得到一个完整对象，沿着字段路径，不断循环得到下一级对象直到最后一级。一图胜千言：<br><img src="http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/acda938c9e08972c18fb2217c0fab686.png" alt="图片.png"></p><h3 id="实现过程中的一些细节"><a href="#实现过程中的一些细节" class="headerlink" title="实现过程中的一些细节"></a>实现过程中的一些细节</h3><h4 id="可扩展的语法接口"><a href="#可扩展的语法接口" class="headerlink" title="可扩展的语法接口"></a>可扩展的语法接口</h4><p>在<code>Dynamic-PB-Parser</code>里定义了<code>Syntax</code>接口，其中定义了语法相关的解析逻辑，实现此接口，可以自定义一套自己的字段路径语法规则。默认提供的标准语法类似这样：<code>pkg1.XXX $ field1.field2[*].(pkg1.extension_field)[1]</code>，既支持数据，也支持用<code>()</code>表达的扩展字段。详细介绍见参考中的ATA文章。</p><h4 id="获取FieldValue"><a href="#获取FieldValue" class="headerlink" title="获取FieldValue"></a>获取FieldValue</h4><p>按FieldDescriptor获取FieldValue时，如果是扩展字段，需要在<code>UnknownFields</code>里找到字段值，并按不同字段类型选择不同的取值逻辑。</p><table><thead><tr><th>字段值存储位置(in Field)</th><th>字段类型</th><th>取值逻辑</th></tr></thead><tbody><tr><td>VarintList</td><td>ENUM</td><td>按ENUM定义的序号获取</td></tr><tr><td>VarintList</td><td>BOOLEAN</td><td>0代表FALSE、1代表TRUE</td></tr><tr><td>VarintList</td><td>INT</td><td>直接取VarintList[0]</td></tr><tr><td>VarintList</td><td>LONG</td><td>直接取VarintList[0]</td></tr><tr><td>Fixed32List</td><td>FLOAT</td><td>将用int表达的字节转为float：Float.intBitsToFloat</td></tr><tr><td>Fixed64List</td><td>DOUBLE</td><td>将用long表达的字节转为double：Double.longBitsToDouble</td></tr><tr><td>LengthDelimitedList</td><td>MESSAGE</td><td>DynamicMessage.parseFrom(LengthDelimitedList[0])</td></tr><tr><td>LengthDelimitedList</td><td>STRING</td><td>LengthDelimitedList[0].toStringUtf8()</td></tr><tr><td>LengthDelimitedList</td><td>BYTE_STRING</td><td>直接输出LengthDelimitedList[0]</td></tr></tbody></table><h2 id="Dynamic-PB-Parser-的性能优化"><a href="#Dynamic-PB-Parser-的性能优化" class="headerlink" title="Dynamic-PB-Parser 的性能优化"></a><code>Dynamic-PB-Parser</code> 的性能优化</h2><h3 id="解析逻辑的两个阶段"><a href="#解析逻辑的两个阶段" class="headerlink" title="解析逻辑的两个阶段"></a>解析逻辑的两个阶段</h3><p><code>Dynamic-PB-Parser</code>将解析逻辑分为<code>load</code>和<code>parse</code>两个阶段：</p><ol><li><code>load</code>阶段完成schema的加载过程，其中包括了对扩展字段的schema处理</li><li><code>parse</code>阶段完成字段路径的解析，和按路径逐步找到字段值的功能</li></ol><h3 id="通过缓存减少重复的parse逻辑"><a href="#通过缓存减少重复的parse逻辑" class="headerlink" title="通过缓存减少重复的parse逻辑"></a>通过缓存减少重复的parse逻辑</h3><ol><li><code>descriptorCache</code>在<code>load</code>阶段初始化，缓存了descriptorName和descriptor的对应关系，在同一个JVM里只需要初始化一次即可</li><li><code>extensionFieldCache</code>在<code>load</code>阶段初始化，缓存了desc文件里全部扩展字段名和扩展字段实例的对应关系。用于后续解析扩展字段时提取FieldDescriptor</li><li><code>fieldPathCache</code>在<code>parse</code>阶段初始化，缓存了完整字段路径和字段拆分后结果的对应关系。避免每次都需要做split和对<code>()</code>表达的扩展字段路径的解析</li><li><code>fieldNameCache</code>和<code>fieldIndexCache</code>在<code>parse</code>阶段初始化，分别缓存了field和fieldName（<code>abc[*]-&gt;abc</code>），以及field和fieldIndex（<code>abc[*]-&gt;*</code>）的对应关系，避免每次解析都要执行正则匹配。</li></ol><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p><code>Dynamic-PB-Parser</code>具体的实现细节还有很多，感兴趣的同学可以checkout Github repo。虽然不是什么高深的技术，但是背后也是对“控制和逻辑正交”的函数式编程思维的一次成功实践。<br>由于所在项目组的特殊性，这种用Protobuf描述的数据又非常多且普遍，用传统的protobuf的解析方式给开发人员的维护工作带来了很大痛苦，因此开发了<code>Dynamic-PB-Parser</code>这个工具，希望能帮助到更多和我有类似问题的开发同学。</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>hive UDFJson:<a href="https://github.com/apache/hive/blob/master/ql/src/java/org/apache/hadoop/hive/ql/udf/UDFJson.java" target="_blank" rel="noopener">https://github.com/apache/hive/blob/master/ql/src/java/org/apache/hadoop/hive/ql/udf/UDFJson.java</a><br>github：<a href="https://github.com/lhyundeadsoul/pb-parser" target="_blank" rel="noopener">https://github.com/lhyundeadsoul/pb-parser</a><br>欢迎提issue和MR</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;h3 id=&quot;核心痛点&quot;&gt;&lt;a href=&quot;#核心痛点&quot; class=&quot;headerlink&quot; title=&quot;核心痛点&quot;&gt;&lt;/a&gt;核心痛点&lt;/h3&gt;&lt;p&gt;使用ODPS(hive) SQL解析JSON数据的时候你可能用过get_json_object这个内置UDF，其灵活性给JSON数据解析带来了很多的便利。&lt;/p&gt;
-&lt;p&gt;但是对于Protobuf描述的数据，解析工作就麻烦太多了，即使解析一个字段，也要写一个完整的UDF(或UDTF)，并且上传各种protobuf的jar，然而这还没有完，如果新需求来了，即使仅改了一个字段的解析需求，也需要再重新开发一个新的UDF来完成。时间久了，项目里会有很多地方散落着各种Protobuf数据解析的逻辑，如果再有些公共逻辑改变，还要涉及到重构。维护工作繁重。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="开源产品" scheme="http://lihongyu.me/categories/%E5%BC%80%E6%BA%90%E4%BA%A7%E5%93%81/"/>
-    
-    
-      <category term="pb-parser" scheme="http://lihongyu.me/tags/pb-parser/"/>
     
   </entry>
   

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[如何设计一个吸引人的演讲]]></title>
+    <url>%2F2021%2F06%2F03%2F%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E5%90%B8%E5%BC%95%E4%BA%BA%E7%9A%84%E6%BC%94%E8%AE%B2%2F</url>
+    <content type="text"><![CDATA[破冰：在听众认知上戳一个洞把听众带入一个场景“冒犯”听众：你对“创新”的理解真的对吗？收集笑点，而不是设计笑点注意力管理让听众说几句，互动调动听众脑中的画面预期之外的获得感]]></content>
+      <tags>
+        <tag>演讲</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[web开发趋势]]></title>
     <url>%2F2021%2F03%2F28%2Fweb%E5%BC%80%E5%8F%91%E8%B6%8B%E5%8A%BF%2F</url>
     <content type="text"><![CDATA[纯后端Docker + Kubernates解决web开发中横向扩展的问题 ServiceMesh解决web开发中纵向逻辑拆分的问题：业务逻辑和中间件逻辑 前后端协作GraphQL web开发本质上是在做一个信息流，流动的双方是前端 和 后端，前端是后端 的client，后端 是前端 的数据库 数据库有一个很好的设计 ，就是用sql表达”我要什么数据”， 用sql解析器和存储引擎表达”我怎么得到数据” 因此，给前端 一个QL，让真正对数据有需求的前端 表达”我要什么数据”，让数据拥有者只解决怎么得到数据的问题 GraphQL诞生]]></content>
@@ -109,10 +117,10 @@
       </categories>
       <tags>
         <tag>心领神会</tag>
+        <tag>web</tag>
         <tag>设计原则</tag>
         <tag>方法论</tag>
         <tag>java</tag>
-        <tag>web</tag>
         <tag>微服务</tag>
       </tags>
   </entry>
