@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lihongyu.me/"/>
-  <updated>2021-06-04T14:52:01.306Z</updated>
+  <updated>2021-07-07T14:13:36.630Z</updated>
   <id>http://lihongyu.me/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于大数据的几个论断</title>
+    <link href="http://lihongyu.me/2021/07/07/%E5%85%B3%E4%BA%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9A%84%E5%87%A0%E4%B8%AA%E8%AE%BA%E6%96%AD/"/>
+    <id>http://lihongyu.me/2021/07/07/关于大数据的几个论断/</id>
+    <published>2021-07-07T14:13:02.000Z</published>
+    <updated>2021-07-07T14:13:36.630Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="数据中台三阶段"><a href="#数据中台三阶段" class="headerlink" title="数据中台三阶段"></a>数据中台三阶段</h2><p>What（描述事实） -&gt; why（诊断归因：自动归因） -&gt; how（指导业务）</p><blockquote><p>arch问题本质都是耦合问题，都是balance问题<br><a id="more"></a></p><ol><li>业务数据化</li><li>数据资产化</li><li>资产服务化</li><li>服务可视化</li></ol></blockquote><h2 id="数据治理"><a href="#数据治理" class="headerlink" title="数据治理"></a>数据治理</h2><p>数据质量、数据元数据管理、数据生命周期、数据安全</p><h2 id="数据索引就是数据特征"><a href="#数据索引就是数据特征" class="headerlink" title="数据索引就是数据特征"></a>数据索引就是数据特征</h2><h2 id="九大思维模型"><a href="#九大思维模型" class="headerlink" title="九大思维模型"></a>九大思维模型</h2><ol><li>OLAP业务需求抽象分析至简思维模型</li><li>大数据架构设计本质思维模型：CAP、BASE</li><li>动态灵活组合大数据组件思维模型</li><li>根据场景平衡折中balance：适度超前：0.5-2年未来预期</li><li>个人影响力思维模型</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;数据中台三阶段&quot;&gt;&lt;a href=&quot;#数据中台三阶段&quot; class=&quot;headerlink&quot; title=&quot;数据中台三阶段&quot;&gt;&lt;/a&gt;数据中台三阶段&lt;/h2&gt;&lt;p&gt;What（描述事实） -&amp;gt; why（诊断归因：自动归因） -&amp;gt; how（指导业务）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;arch问题本质都是耦合问题，都是balance问题&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="大数据" scheme="http://lihongyu.me/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lihongyu.me/2021/07/06/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%8F%B0%E6%9E%B6%E6%9E%84%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    <id>http://lihongyu.me/2021/07/06/数据中台架构所思所想/</id>
+    <published>2021-07-06T14:04:53.149Z</published>
+    <updated>2021-07-07T14:12:39.832Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="关于大数据的几个论断"><a href="#关于大数据的几个论断" class="headerlink" title="关于大数据的几个论断"></a>关于大数据的几个论断</h1><h2 id="数据中台三阶段"><a href="#数据中台三阶段" class="headerlink" title="数据中台三阶段"></a>数据中台三阶段</h2><p>What（描述事实） -&gt; why（诊断归因：自动归因） -&gt; how（指导业务）</p><blockquote><p>arch问题本质都是耦合问题，都是balance问题</p></blockquote><ol><li>业务数据化</li><li>数据资产化</li><li>资产服务化</li><li>服务可视化</li></ol><h2 id="数据治理"><a href="#数据治理" class="headerlink" title="数据治理"></a>数据治理</h2><p>数据质量、数据元数据管理、数据生命周期、数据安全</p><h2 id="数据索引就是数据特征"><a href="#数据索引就是数据特征" class="headerlink" title="数据索引就是数据特征"></a>数据索引就是数据特征</h2><h2 id="九大思维模型"><a href="#九大思维模型" class="headerlink" title="九大思维模型"></a>九大思维模型</h2><ol><li>OLAP业务需求抽象分析至简思维模型</li><li>大数据架构设计本质思维模型：CAP、BASE</li><li>动态灵活组合大数据组件思维模型</li><li>根据场景平衡折中balance：适度超前：0.5-2年未来预期</li><li>个人影响力思维模型</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;关于大数据的几个论断&quot;&gt;&lt;a href=&quot;#关于大数据的几个论断&quot; class=&quot;headerlink&quot; title=&quot;关于大数据的几个论断&quot;&gt;&lt;/a&gt;关于大数据的几个论断&lt;/h1&gt;&lt;h2 id=&quot;数据中台三阶段&quot;&gt;&lt;a href=&quot;#数据中台三阶段&quot; class
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>跨学科工具箱2——系统论</title>
@@ -505,63 +548,6 @@
     
     
       <category term="心领神会" scheme="http://lihongyu.me/tags/%E5%BF%83%E9%A2%86%E7%A5%9E%E4%BC%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一些工作方式心得</title>
-    <link href="http://lihongyu.me/2020/03/04/%E4%B8%80%E4%BA%9B%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F%E5%BF%83%E5%BE%97/"/>
-    <id>http://lihongyu.me/2020/03/04/一些工作方式心得/</id>
-    <published>2020-03-04T02:32:03.000Z</published>
-    <updated>2020-12-23T13:56:43.661Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p>自身</p><ol><li>关于思考方式<ol><li>空间域：结构化思考：点线面体</li><li>时间域：终局思维</li><li>问题域：<ol><li>定义问题、关键字、解题</li><li>问题是。。。方案有1。。2。。。因为xxxx的原因，我推荐方案xxx</li></ol></li></ol></li><li>关于行事方式<ol><li>反复复盘总结、抽象</li></ol></li></ol></li><li><p>与合作方的桥梁</p><ol><li>关于沟通<ol><li>保持高频又高效的沟通</li><li>YES! AND!</li></ol></li></ol></li><li><p>合作方</p><ol><li>关于同事<ol><li>每个人都有太多问题了，看到这个不难，还是加油看看别人的闪光点吧</li></ol></li></ol></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;自身&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;关于思考方式&lt;ol&gt;
-&lt;li&gt;空间域：结构化思考：点线面体&lt;/li&gt;
-&lt;li&gt;时间域：终局思维&lt;/li&gt;
-&lt;li&gt;问题域：&lt;ol&gt;
-&lt;li&gt;定义问题、关键字、解题&lt;/li&gt;
-&lt;li&gt;问题是。。。方案有1。。2。。。因为xxx
-      
-    
-    </summary>
-    
-    
-      <category term="心领神会" scheme="http://lihongyu.me/tags/%E5%BF%83%E9%A2%86%E7%A5%9E%E4%BC%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>走吧，去火星！</title>
-    <link href="http://lihongyu.me/2019/05/22/%E8%B5%B0%E5%90%A7%EF%BC%8C%E5%8E%BB%E7%81%AB%E6%98%9F%EF%BC%81/"/>
-    <id>http://lihongyu.me/2019/05/22/走吧，去火星！/</id>
-    <published>2019-05-22T06:58:11.000Z</published>
-    <updated>2020-12-23T13:56:43.665Z</updated>
-    
-    <content type="html"><![CDATA[<p>没有时间解释了！<a href="https://go.nasa.gov/Mars2020Pass" target="_blank" rel="noopener">快上船！</a></p><iframe width="980" height="410" src="https://mars.nasa.gov/layout/embed/send-your-name/mars2020/certificate/?cn=781873778280" frameborder="0"></iframe>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;没有时间解释了！&lt;a href=&quot;https://go.nasa.gov/Mars2020Pass&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;快上船！&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width=&quot;980&quot; height=&quot;410&quot; src=&quot;http
-      
-    
-    </summary>
-    
-      <category term="黑科技" scheme="http://lihongyu.me/categories/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
-    
-    
-      <category term="火星船票" scheme="http://lihongyu.me/tags/%E7%81%AB%E6%98%9F%E8%88%B9%E7%A5%A8/"/>
     
   </entry>
   
