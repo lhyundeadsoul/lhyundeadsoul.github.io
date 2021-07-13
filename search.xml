@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[怎么变穷？]]></title>
+    <url>%2F2021%2F07%2F13%2F%E6%80%8E%E4%B9%88%E5%8F%98%E7%A9%B7%EF%BC%9F%2F</url>
+    <content type="text"><![CDATA[应激反应 急功近利：短视地看问题 线性规划：静态地看问题 自我视角：自我地看问题 追求免费：贪便宜 无目标 不懂放弃：因为无目标，所以不知道要争什么，进而放弃什么，所以全部都不放弃]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[关于开源商业模式的思考]]></title>
     <url>%2F2021%2F07%2F12%2F%E5%85%B3%E4%BA%8E%E5%BC%80%E6%BA%90%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%80%9D%E8%80%83%2F</url>
     <content type="text"><![CDATA[核心竞争力 随着付费意愿的增强，核心竞争力不应该是靠把技术藏起来实现的，而应该是靠专业的服务真正给客户降本增效 技术世界里不变的事 分布式是必选项 Cloud native，cloud是前提假设，而不仅仅是把应用搬到云上而已（snowflake） 开源：堆积木式的开发 不是技术在变，是应用场景在变（变化都是场景引发的，而非技术本身）结构化-&gt; 非结构化-&gt;物联网 开源商业模式的好处 对自己： 反馈、优化和迭代的提速 提升知名度 对用户： 解决创业公司的信任危机]]></content>
@@ -149,8 +154,8 @@
         <category>总结思考</category>
       </categories>
       <tags>
-        <tag>web</tag>
         <tag>心领神会</tag>
+        <tag>web</tag>
         <tag>设计原则</tag>
         <tag>方法论</tag>
         <tag>java</tag>
